@@ -88,12 +88,13 @@ p,h1{
   background-color: hsl(179, 100%, 13%);
 }
 .col{
+  margin-top:5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-right: 40px;
     max-width: 278px;
-    height: 450px;
+    height: 400px;
 }
 button:hover{
   background: none;
