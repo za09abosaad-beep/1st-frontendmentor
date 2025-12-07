@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  padding: 0 60px;
+  background-color: hsl(0, 0%, 95%);
+}
+h1{
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders", sans-serif;
+  font-weight:700 ;
+  font-style: normal;
+}
+button{
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  transition: .3s;
+}
+.goldb{
+  color:hsl(31, 77%, 52%) ;
+  height: 50px;
+  width:80%;
+  margin-bottom: 25px;
+  margin-left: 28px;
+  font-size: 13.8px;
+  border: 1px solid hsl(0, 0%, 95%) ;
+  border-radius: 
+  1000px;font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.greenb{
+  color:hsl(184, 100%, 22%) ;
+  height: 50px;
+  width:80%;
+  margin-bottom: 25px;
+  margin-left: 28px;
+  font-size: 13.8px;
+  border: 1px solid hsl(0, 0%, 95%) ;
+  border-radius: 1000px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+.oilb{
+  color:hsl(179, 100%, 13%) ;
+  height: 50px;
+  width:80%;
+  margin-bottom: 25px;
+  margin-left: 28px;
+  font-size: 13.8px;
+  border: 1px solid hsl(0, 0%, 95%) ;
+  border-radius: 1000px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+  font-size: 13.8px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+svg{
+  margin-left: 28px;
+}
+p,h1{
+  padding-left: 28px;
+}
+.gold{
+  border-radius:10px 0 0 10px;
+  background-color: hsl(31, 77%, 52%);
+}
+.green{
+ background-color: hsl(184, 100%, 22%);
+}
+.oil{
+  border-radius: 0 10px 10px 0;
+  background-color: hsl(179, 100%, 13%);
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 40px;
+  height: 60%;
+  width: 80%;
+}
+button:hover{
+  background: none;
+  color: hsl(0, 0%, 95%);
+  transform: scale(0.95);
+  
+}
+@media (max-width:376px){
+  .container{
+    height: 1490px;
+    flex-direction: column;
+    padding: 50px 42px;
+  }
+.col{
+  height: 450px;
+  width:278px;
+}
+.gold{
+  border-radius: 10px 10px 0 0;
+}
+.oil{
+  border-radius: 0 0 10px 10px;
+}
+}
