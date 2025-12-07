@@ -28,8 +28,8 @@ button{
 }
 .goldb{
   color:hsl(31, 77%, 52%) ;
-  height: 50px;
-  width:80%;
+     height: 48px;
+    width: 146px;
   margin-bottom: 25px;
   margin-left: 28px;
   font-size: 13.8px;
@@ -40,8 +40,8 @@ button{
 }
 .greenb{
   color:hsl(184, 100%, 22%) ;
-  height: 50px;
-  width:80%;
+      height: 48px;
+    width: 146px;
   margin-bottom: 25px;
   margin-left: 28px;
   font-size: 13.8px;
@@ -52,8 +52,8 @@ button{
 }
 .oilb{
   color:hsl(179, 100%, 13%) ;
-  height: 50px;
-  width:80%;
+     height: 48px;
+    width: 146px;
   margin-bottom: 25px;
   margin-left: 28px;
   font-size: 13.8px;
