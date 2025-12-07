@@ -92,8 +92,8 @@ p,h1{
   flex-direction: column;
   justify-content: space-around;
   padding-right: 40px;
-  height: 60%;
-  width: 80%;
+    max-width: 278px;
+    height: 450px;
 }
 button:hover{
   background: none;
