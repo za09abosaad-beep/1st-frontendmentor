@@ -77,14 +77,14 @@ p,h1{
   padding-left: 28px;
 }
 .gold{
-  border-radius:10px 0 0 10px;
+  border-radius:7px 0 0 7px;
   background-color: hsl(31, 77%, 52%);
 }
 .green{
  background-color: hsl(184, 100%, 22%);
 }
 .oil{
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 7px 7px 0;
   background-color: hsl(179, 100%, 13%);
 }
 .col{
@@ -95,6 +95,8 @@ p,h1{
   padding-right: 40px;
     width: 278px;
     height: 450px;
+      padding-left: 16px;
+    padding-top: 21px;
 }
 button:hover{
   background: none;
@@ -113,9 +115,9 @@ button:hover{
   width:278px;
 }
 .gold{
-  border-radius: 10px 10px 0 0;
+  border-radius: 7px 7px 0 0;
 }
 .oil{
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 7px 7px;
 }
 }
